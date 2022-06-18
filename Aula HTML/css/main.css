@@ -1,0 +1,51 @@
+body {
+	align-items: center;
+	background-image: url(../imgs/background.jpg);
+}
+.center {
+	justify-content: center;
+}
+
+
+.head-container{
+
+	display: flex;
+	margin: 20px;
+	border: 15px solid black;
+	flex-direction: column;
+	
+}
+
+.services-container {
+	display: flex;
+	margin: 20px;
+	border: 15px solid black;
+	flex-basis: auto;
+	
+}
+
+.content-dragon {
+
+}
+
+.dragon{
+	background-color: aquamarine;
+	margin: 15px;
+	text-align: center;
+}
+
+.dono {
+	text-align: center;
+	background-color: lightcoral;
+	opacity: 0.8;
+	margin: 8px;
+	flex-grow: 1;
+}
+
+.sobre {
+	margin: 15px;
+	padding: 1px;
+	border: 1px solid black;
+	align-items: center;
+	background-color: orange;
+}
