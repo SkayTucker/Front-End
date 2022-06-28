@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>To-list Desafio</title>
 </head>
 
@@ -12,17 +12,20 @@
     <h1>To Do List - Desafio Dio</h1>
     <p>Lista de Tarefas usando fluxograma</p>
 </div>
+
 <body>
     <div class="container">
         <div class="container-tarefa">
             <p>Adicione uma nova tarefa</p>
-            <input type="text" id="myInput" placeholder="Title...">
-            <span onclick="newElement()" class="addBtn">Ad²</span>
+            <input type="text" id="myInput" placeholder="nova tarefa..">
+            <span onclick="newElement()" class="addBtn">Add</span>
         </div>
 
-        <h2 class="string">A tarefa adicionada --></h2>
+        <h2 class="string">adicionada --></h2>
 
+                
               <ul class="Listaprod" id="myUL">
+                <div class="info"> Lista de Tarefas</div>
                 <li class="checked">Adicione tarefas</li>
               </ul>
               
@@ -34,6 +37,7 @@
             <li>Estudar código javascript</li>
           </ul>
     </div>
-    <script src="/assets/js/scripts.js"></script>
+
+    <script src="/Javascript/To-do list/assets/js/scripts.js"></script>
 </body>
 </html>

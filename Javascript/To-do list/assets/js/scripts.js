@@ -1,5 +1,4 @@
 // Criando o Botão de Fechar a tarefa
-
 var myNodelist = document.getElementsByTagName("LI");
 var i;
 for (i = 0; i < myNodelist.length; i++) {
