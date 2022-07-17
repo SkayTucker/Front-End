@@ -1,0 +1,51 @@
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-family: sans-serif;
+    min-height: 40px;
+}
+
+body {
+    background-color: beige;
+}
+
+header h5 {
+    font-style: italic; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+article {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    padding: 5px 5px;
+    margin: 8px 8px;
+    justify-content: space-around;
+    min-height: auto;
+}
+article aside {
+    color: rgb(8, 165, 8);
+}
+article li {
+    list-style: none;
+    text-align: left;
+}
+
+
+footer {
+    text-align: center;
+    background-color: salmon;
+    position: fixed;
+    margin-top: 50px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
